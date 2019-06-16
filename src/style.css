@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+#root{
+  margin: auto;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.1vw;
+}
+.board > .ceil {
+  font-size: 1.8rem;
+  padding: .5rem;
+  background: lightblue;
+  text-align: center;
+  border-radius: 45%;
+  border: black 1px solid;
+}
